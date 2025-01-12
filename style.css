@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: beige;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.game{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.element{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+}
+.element:active {
+    background-color: rgba(165, 42, 42, 0.912);
+}
+.element:hover{
+    border: solid 2px black;
+}
+
+#sessior{
+    margin-top: 20px;
+}
+#rock{
+    margin-top: 20px;
+}
+#statement{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+    text-align: center;
+}
